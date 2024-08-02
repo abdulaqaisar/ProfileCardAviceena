@@ -1,0 +1,41 @@
+.social{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 3px 0px;    
+    min-height: 20vh;
+    max-width: 280px;
+    width: 100%;
+}
+.social p{
+    color: gray;
+    margin-left: 20px;
+}
+.social_icons{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    min-height: 30vh;
+}
+.social_icons img{
+    width: 70px;
+    height: 70px;
+    border-radius: 20%;
+    margin: 10px 0px 10px 20px;
+}
+.savetocontact{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 3px 0px; 
+    border-radius: 100px;
+    width: 120px;
+    height: 60px;
+    display: flex;
+    flex-direction:row-reverse;
+    background-color: #0C6A76;
+    color: white;
+    margin: -30px 0px 0px 250px
+}
+.savetocontact button{
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: small;
+    font-weight: bold;
+    color: aliceblue;
+}
